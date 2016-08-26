@@ -1,8 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-
-import thread
 import time
+from concurrent.futures import thread
 
 
 def print_time(threadName, delay):
