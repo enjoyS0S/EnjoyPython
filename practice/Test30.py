@@ -16,3 +16,8 @@ if flag:
     print('%d 是一个回文数!' % a)
 else:
     print('%d 不是一个回文数!' % a)
+
+if x == x[::-1]:
+    print('%d 还是一个回文数!' % a)
+else:
+    print('%d 还不是一个回文数!' % a)
